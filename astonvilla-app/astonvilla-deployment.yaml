@@ -4,7 +4,7 @@ metadata:
   name: astonvilla
 
 spec:
-  replicas: 1
+  replicas: 2
   
   template:
     metadata:
