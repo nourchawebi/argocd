@@ -10,7 +10,7 @@ spec:
     server: https://kubernetes.default.svc # ken bch namlou apply manual al cluster nktbou   https://kubernetes.default.svc
   source:
     path: astonvilla-app # you chould provide the folder in the git repo
-    repoURL:"https://github.com/nourchawebi/argocd.git" # the url of the github repository
+    repoURL: "https://github.com/nourchawebi/argocd.git" # the url of the github repository
     targetRevision: HEAD # the branch of the github repository.We can use Head or a specific version
   syncPolicy:
     automated: {} # This will detect changes automatically from the repository
